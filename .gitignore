@@ -1,0 +1,24 @@
+# Local Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Source data is downloaded by the notebook
+data/
+*.part
+
+# Neural weights are distributed as a GitHub Release asset
+artifacts/rubert_tiny2_best/
+artifacts/rubert_tiny2_last/
+.release-assets/
+*.zip
+
+# Local credentials and editor configuration
+.env
+.env.*
+.idea/
+.vscode/

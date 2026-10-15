@@ -1,0 +1,38 @@
+{
+  "base_model": "cointegrated/rubert-tiny2",
+  "revision": "e8ed3b0c8bbf4fb6984c3de043bf7d2f4e5969ae",
+  "checkpoint": "best validation Macro-F1, epoch 3",
+  "labels": {
+    "0": "Нейтральная",
+    "1": "Положительная",
+    "2": "Отрицательная"
+  },
+  "max_length": 256,
+  "train_batch_size": 16,
+  "epochs": 3,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.05,
+  "max_grad_norm": 1.0,
+  "attention_implementation": "eager",
+  "dtype": "float32",
+  "seed": 42,
+  "files": {
+    "config.json": {
+      "bytes": 1389,
+      "sha256": "6329905512c31f26a620d8b8dfe11cee9ac14bef0337c00371be905f0acdb77a"
+    },
+    "model.safetensors": {
+      "bytes": 116785388,
+      "sha256": "b9a2bf713c1b1df867317e103a4c782e9cdaa22e351a74c017d6de02748a2e19"
+    },
+    "tokenizer.json": {
+      "bytes": 2413536,
+      "sha256": "bd32746ccdda6227fcdbbdab1090c734a3590da2b51c25ee57093f804eb263ed"
+    },
+    "tokenizer_config.json": {
+      "bytes": 596,
+      "sha256": "2147d062a997348363120ebdb3f67855a97652de2b12fe3ba2d9ed8ecd8c527b"
+    }
+  }
+}
